@@ -4,9 +4,16 @@ using System.Text;
 
 namespace ApexMenu
 {
-    class Legend : ILegend
+    class Gibralter : ILegend
     {
         public string CharacterName { get; set; }
         public string CharacterDiscription { get; set; }
+
+        public Gibralter()
+        {
+            CharacterName = "Gibralter";
+
+            CharacterDiscription = "sfldsdfsd";
+        }
     }
 }

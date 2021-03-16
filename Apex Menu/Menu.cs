@@ -27,21 +27,21 @@ namespace ApexMenu
             {
                 return true;
             }
-        }
+        } 
 
         private void LegendsInfoScreen()
         {
             Console.Clear();
 
-            LegendRepository repository = new LegendRepository();
-            Legend[] legends = repository.GetAllLegends();
+            //LegendRepository repository = new LegendRepository();
+            //Legend[] legends = repository.GetAllLegends();
             
-            Console.WriteLine("Character selection\n");
-            for(int i = 0; i < legends.Length; i++)
-            {
-                Console.WriteLine($"{i + 1}) {legends[i]}");
-            }
-            string result = Console.ReadLine();
+            //Console.WriteLine("Character selection\n");
+            //for(int i = 0; i < legends.Length; i++)
+            //{
+            //    Console.WriteLine($"{i + 1}) {legends[i]}");
+            //}
+            //string result = Console.ReadLine();
         }
     }
 }
